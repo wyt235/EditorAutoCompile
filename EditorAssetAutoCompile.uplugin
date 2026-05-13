@@ -1,0 +1,24 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "Editor Asset Auto Compile",
+  "Description": "Listens for asset-saved event and compiles saved Blueprints (skips during PIE).",
+  "Category": "Editor",
+  "CreatedBy": "wyatt",
+  "CreatedByURL": "",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "SupportURL": "",
+  "CanContainContent": false,
+  "IsBetaVersion": false,
+  "IsExperimentalVersion": true,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "EditorAssetAutoCompile",
+      "Type": "Editor",
+      "LoadingPhase": "PostEngineInit"
+    }
+  ]
+}
